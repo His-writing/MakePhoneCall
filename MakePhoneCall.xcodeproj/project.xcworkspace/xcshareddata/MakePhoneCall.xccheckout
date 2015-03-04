@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BF39B9C4-FBD6-4B70-BBFC-9620C995A133</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MakePhoneCall</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B8D4D0593309BD95978034DAA3CB46FCA4422D0D</key>
+		<string>https://github.com/His-writing/MakePhoneCall.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MakePhoneCall.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B8D4D0593309BD95978034DAA3CB46FCA4422D0D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/His-writing/MakePhoneCall.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B8D4D0593309BD95978034DAA3CB46FCA4422D0D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B8D4D0593309BD95978034DAA3CB46FCA4422D0D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MakePhoneCall</string>
+		</dict>
+	</array>
+</dict>
+</plist>
