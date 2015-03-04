@@ -14,22 +14,21 @@
 		F0B80F231AA6998C00E545B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B80F221AA6998C00E545B6 /* main.m */; };
 		F0B80F271AA6998C00E545B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B80F261AA6998C00E545B6 /* AppDelegate.m */; };
 		F0B80F291AA6998C00E545B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0B80F281AA6998C00E545B6 /* Images.xcassets */; };
-		F0B80F301AA6998C00E545B6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B80F2F1AA6998C00E545B6 /* XCTest.framework */; };
-		F0B80F311AA6998C00E545B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B80F161AA6998C00E545B6 /* Foundation.framework */; };
-		F0B80F321AA6998C00E545B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B80F1A1AA6998C00E545B6 /* UIKit.framework */; };
-		F0B80F3A1AA6998C00E545B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0B80F381AA6998C00E545B6 /* InfoPlist.strings */; };
-		F0B80F3C1AA6998C00E545B6 /* MakePhoneCallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B80F3B1AA6998C00E545B6 /* MakePhoneCallTests.m */; };
+		F0B80F481AA699A900E545B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B80F461AA699A900E545B6 /* ViewController.m */; };
+		F0B80F491AA699A900E545B6 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0B80F471AA699A900E545B6 /* ViewController.xib */; };
+		F0B80F501AA69F2F00E545B6 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B80F4F1AA69F2F00E545B6 /* CoreTelephony.framework */; };
+		F0B80F521AA69F3A00E545B6 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B80F511AA69F3A00E545B6 /* EventKit.framework */; };
+		F0B80F541AA69F3E00E545B6 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B80F531AA69F3E00E545B6 /* EventKitUI.framework */; };
+		F0B80F561AA69F4F00E545B6 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B80F551AA69F4F00E545B6 /* MediaPlayer.framework */; };
+		F0B80F581AA69F5500E545B6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B80F571AA69F5500E545B6 /* SystemConfiguration.framework */; };
+		F0B80F5A1AA69F5B00E545B6 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B80F591AA69F5B00E545B6 /* StoreKit.framework */; };
+		F0B80F5C1AA69F6300E545B6 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B80F5B1AA69F6300E545B6 /* MessageUI.framework */; };
+		F0B80F5E1AA69F6A00E545B6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B80F5D1AA69F6A00E545B6 /* AVFoundation.framework */; };
+		F0B80F601AA69F7300E545B6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B80F5F1AA69F7300E545B6 /* AudioToolbox.framework */; };
+		F0B80F621AA69F7A00E545B6 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B80F611AA69F7A00E545B6 /* AdSupport.framework */; };
+		F0B80F671AA6A0E200E545B6 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B80F641AA6A0E200E545B6 /* GoogleMobileAds.framework */; };
+		F0B80F681AA6A0E200E545B6 /* libQYYLgoogleLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B80F651AA6A0E200E545B6 /* libQYYLgoogleLib.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		F0B80F331AA6998C00E545B6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F0B80F0B1AA6998C00E545B6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F0B80F121AA6998C00E545B6;
-			remoteInfo = MakePhoneCall;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F0B80F131AA6998C00E545B6 /* MakePhoneCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakePhoneCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,11 +42,23 @@
 		F0B80F251AA6998C00E545B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F0B80F261AA6998C00E545B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F0B80F281AA6998C00E545B6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F0B80F2E1AA6998C00E545B6 /* MakePhoneCallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakePhoneCallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0B80F2F1AA6998C00E545B6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		F0B80F371AA6998C00E545B6 /* MakePhoneCallTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MakePhoneCallTests-Info.plist"; sourceTree = "<group>"; };
-		F0B80F391AA6998C00E545B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F0B80F3B1AA6998C00E545B6 /* MakePhoneCallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MakePhoneCallTests.m; sourceTree = "<group>"; };
+		F0B80F451AA699A900E545B6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F0B80F461AA699A900E545B6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F0B80F471AA699A900E545B6 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		F0B80F4F1AA69F2F00E545B6 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		F0B80F511AA69F3A00E545B6 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		F0B80F531AA69F3E00E545B6 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		F0B80F551AA69F4F00E545B6 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		F0B80F571AA69F5500E545B6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F0B80F591AA69F5B00E545B6 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		F0B80F5B1AA69F6300E545B6 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		F0B80F5D1AA69F6A00E545B6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F0B80F5F1AA69F7300E545B6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F0B80F611AA69F7A00E545B6 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		F0B80F641AA6A0E200E545B6 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		F0B80F651AA6A0E200E545B6 /* libQYYLgoogleLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libQYYLgoogleLib.a; sourceTree = "<group>"; };
+		F0B80F661AA6A0E200E545B6 /* QYYLgoogleLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYYLgoogleLib.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,19 +66,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0B80F191AA6998C00E545B6 /* CoreGraphics.framework in Frameworks */,
 				F0B80F1B1AA6998C00E545B6 /* UIKit.framework in Frameworks */,
+				F0B80F191AA6998C00E545B6 /* CoreGraphics.framework in Frameworks */,
 				F0B80F171AA6998C00E545B6 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F0B80F2B1AA6998C00E545B6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F0B80F301AA6998C00E545B6 /* XCTest.framework in Frameworks */,
-				F0B80F321AA6998C00E545B6 /* UIKit.framework in Frameworks */,
-				F0B80F311AA6998C00E545B6 /* Foundation.framework in Frameworks */,
+				F0B80F681AA6A0E200E545B6 /* libQYYLgoogleLib.a in Frameworks */,
+				F0B80F621AA69F7A00E545B6 /* AdSupport.framework in Frameworks */,
+				F0B80F601AA69F7300E545B6 /* AudioToolbox.framework in Frameworks */,
+				F0B80F5E1AA69F6A00E545B6 /* AVFoundation.framework in Frameworks */,
+				F0B80F5C1AA69F6300E545B6 /* MessageUI.framework in Frameworks */,
+				F0B80F5A1AA69F5B00E545B6 /* StoreKit.framework in Frameworks */,
+				F0B80F581AA69F5500E545B6 /* SystemConfiguration.framework in Frameworks */,
+				F0B80F561AA69F4F00E545B6 /* MediaPlayer.framework in Frameworks */,
+				F0B80F541AA69F3E00E545B6 /* EventKitUI.framework in Frameworks */,
+				F0B80F521AA69F3A00E545B6 /* EventKit.framework in Frameworks */,
+				F0B80F671AA6A0E200E545B6 /* GoogleMobileAds.framework in Frameworks */,
+				F0B80F501AA69F2F00E545B6 /* CoreTelephony.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,8 +90,8 @@
 		F0B80F0A1AA6998C00E545B6 = {
 			isa = PBXGroup;
 			children = (
+				F0B80F631AA6A0E200E545B6 /* lib */,
 				F0B80F1C1AA6998C00E545B6 /* MakePhoneCall */,
-				F0B80F351AA6998C00E545B6 /* MakePhoneCallTests */,
 				F0B80F151AA6998C00E545B6 /* Frameworks */,
 				F0B80F141AA6998C00E545B6 /* Products */,
 			);
@@ -88,7 +101,6 @@
 			isa = PBXGroup;
 			children = (
 				F0B80F131AA6998C00E545B6 /* MakePhoneCall.app */,
-				F0B80F2E1AA6998C00E545B6 /* MakePhoneCallTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,6 +108,16 @@
 		F0B80F151AA6998C00E545B6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F0B80F611AA69F7A00E545B6 /* AdSupport.framework */,
+				F0B80F5F1AA69F7300E545B6 /* AudioToolbox.framework */,
+				F0B80F5D1AA69F6A00E545B6 /* AVFoundation.framework */,
+				F0B80F5B1AA69F6300E545B6 /* MessageUI.framework */,
+				F0B80F591AA69F5B00E545B6 /* StoreKit.framework */,
+				F0B80F571AA69F5500E545B6 /* SystemConfiguration.framework */,
+				F0B80F551AA69F4F00E545B6 /* MediaPlayer.framework */,
+				F0B80F531AA69F3E00E545B6 /* EventKitUI.framework */,
+				F0B80F511AA69F3A00E545B6 /* EventKit.framework */,
+				F0B80F4F1AA69F2F00E545B6 /* CoreTelephony.framework */,
 				F0B80F161AA6998C00E545B6 /* Foundation.framework */,
 				F0B80F181AA6998C00E545B6 /* CoreGraphics.framework */,
 				F0B80F1A1AA6998C00E545B6 /* UIKit.framework */,
@@ -109,6 +131,9 @@
 			children = (
 				F0B80F251AA6998C00E545B6 /* AppDelegate.h */,
 				F0B80F261AA6998C00E545B6 /* AppDelegate.m */,
+				F0B80F451AA699A900E545B6 /* ViewController.h */,
+				F0B80F461AA699A900E545B6 /* ViewController.m */,
+				F0B80F471AA699A900E545B6 /* ViewController.xib */,
 				F0B80F281AA6998C00E545B6 /* Images.xcassets */,
 				F0B80F1D1AA6998C00E545B6 /* Supporting Files */,
 			);
@@ -126,22 +151,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F0B80F351AA6998C00E545B6 /* MakePhoneCallTests */ = {
+		F0B80F631AA6A0E200E545B6 /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				F0B80F3B1AA6998C00E545B6 /* MakePhoneCallTests.m */,
-				F0B80F361AA6998C00E545B6 /* Supporting Files */,
+				F0B80F641AA6A0E200E545B6 /* GoogleMobileAds.framework */,
+				F0B80F651AA6A0E200E545B6 /* libQYYLgoogleLib.a */,
+				F0B80F661AA6A0E200E545B6 /* QYYLgoogleLib.h */,
 			);
-			path = MakePhoneCallTests;
-			sourceTree = "<group>";
-		};
-		F0B80F361AA6998C00E545B6 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				F0B80F371AA6998C00E545B6 /* MakePhoneCallTests-Info.plist */,
-				F0B80F381AA6998C00E545B6 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
+			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,24 +181,6 @@
 			productReference = F0B80F131AA6998C00E545B6 /* MakePhoneCall.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F0B80F2D1AA6998C00E545B6 /* MakePhoneCallTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F0B80F421AA6998C00E545B6 /* Build configuration list for PBXNativeTarget "MakePhoneCallTests" */;
-			buildPhases = (
-				F0B80F2A1AA6998C00E545B6 /* Sources */,
-				F0B80F2B1AA6998C00E545B6 /* Frameworks */,
-				F0B80F2C1AA6998C00E545B6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F0B80F341AA6998C00E545B6 /* PBXTargetDependency */,
-			);
-			name = MakePhoneCallTests;
-			productName = MakePhoneCallTests;
-			productReference = F0B80F2E1AA6998C00E545B6 /* MakePhoneCallTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -190,11 +189,6 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = shuzhenguo;
-				TargetAttributes = {
-					F0B80F2D1AA6998C00E545B6 = {
-						TestTargetID = F0B80F121AA6998C00E545B6;
-					};
-				};
 			};
 			buildConfigurationList = F0B80F0E1AA6998C00E545B6 /* Build configuration list for PBXProject "MakePhoneCall" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -209,7 +203,6 @@
 			projectRoot = "";
 			targets = (
 				F0B80F121AA6998C00E545B6 /* MakePhoneCall */,
-				F0B80F2D1AA6998C00E545B6 /* MakePhoneCallTests */,
 			);
 		};
 /* End PBXProject section */
@@ -220,15 +213,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0B80F211AA6998C00E545B6 /* InfoPlist.strings in Resources */,
+				F0B80F491AA699A900E545B6 /* ViewController.xib in Resources */,
 				F0B80F291AA6998C00E545B6 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F0B80F2C1AA6998C00E545B6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F0B80F3A1AA6998C00E545B6 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,42 +225,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0B80F481AA699A900E545B6 /* ViewController.m in Sources */,
 				F0B80F271AA6998C00E545B6 /* AppDelegate.m in Sources */,
 				F0B80F231AA6998C00E545B6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F0B80F2A1AA6998C00E545B6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F0B80F3C1AA6998C00E545B6 /* MakePhoneCallTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F0B80F341AA6998C00E545B6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F0B80F121AA6998C00E545B6 /* MakePhoneCall */;
-			targetProxy = F0B80F331AA6998C00E545B6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F0B80F1F1AA6998C00E545B6 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F0B80F201AA6998C00E545B6 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		F0B80F381AA6998C00E545B6 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F0B80F391AA6998C00E545B6 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -359,10 +322,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/lib",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MakePhoneCall/MakePhoneCall-Prefix.pch";
 				INFOPLIST_FILE = "MakePhoneCall/MakePhoneCall-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -372,51 +346,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/lib",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MakePhoneCall/MakePhoneCall-Prefix.pch";
 				INFOPLIST_FILE = "MakePhoneCall/MakePhoneCall-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		F0B80F431AA6998C00E545B6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MakePhoneCall.app/MakePhoneCall";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MakePhoneCall/MakePhoneCall-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "MakePhoneCallTests/MakePhoneCallTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		F0B80F441AA6998C00E545B6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MakePhoneCall.app/MakePhoneCall";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MakePhoneCall/MakePhoneCall-Prefix.pch";
-				INFOPLIST_FILE = "MakePhoneCallTests/MakePhoneCallTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -437,14 +382,6 @@
 			buildConfigurations = (
 				F0B80F401AA6998C00E545B6 /* Debug */,
 				F0B80F411AA6998C00E545B6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		F0B80F421AA6998C00E545B6 /* Build configuration list for PBXNativeTarget "MakePhoneCallTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F0B80F431AA6998C00E545B6 /* Debug */,
-				F0B80F441AA6998C00E545B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
